@@ -26,7 +26,7 @@ prompt = ChatPromptTemplate(
     )
 
 messages = prompt.format_messages(
-        topic = "Agumentin içeriği nedir tek cümleyle açıkla")
+        topic = "Genişletilmiş Kalman Filtresi (EKF) otonom araçlarda konum kestirimi için nasıl çalışır?")
 
 #promptu modele gönder
 response = model.invoke(messages)
